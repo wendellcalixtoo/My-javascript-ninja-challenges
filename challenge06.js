@@ -15,7 +15,7 @@ desafio.
 */
 // ?
 var teams = ['Paysandu', 'Remo', 'Tuna', 'Bragança', 'Brasiliense'];
-console.log('Times que estão participando do campeonato:', teams);
+console.log(`Times que estão participando do campeonato: ${teams}`);
 
 /*
 Crie uma função chamada `showTeamPosition` com as seguintes características:
@@ -96,7 +96,7 @@ function convertToHex(cor) {
     default:
       return 'Não temos o equivalente hexadecimal para ' + cor + '.';
   }
-  return 'O hexadecimal para a cor ' + cor + ' é ' + hexa + '.';
+  return `O hexadecimal para a ${cor} é ${hexa}.`;
 }
 console.log('-------------------------------------')
 
