@@ -10,4 +10,5 @@
     <li>Challenge 07 :heavy_check_mark:</li>
     <li>Challenge 08 :heavy_check_mark:</li>
     <li>Challenge 09 :heavy_check_mark:</li>
+    <li>Challenge 10 :heavy_check_mark:</li>
 </ul>
