@@ -18,4 +18,5 @@
     <li>Challenge 15 :heavy_check_mark:</li>
     <li>Challenge 16 :heavy_check_mark:</li>
     <li>Challenge 17 :heavy_check_mark:</li>
+    <li>Challenge 18 :heavy_check_mark:</li>
 </ul>
