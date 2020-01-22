@@ -38,7 +38,6 @@ resultado no console. O resultado deve ser:
     '10 anos.\n50 discos vendidos.\nE nem 10% dos meus amigos o conhece.';
   console.log('\nNúmeros no início da linha do texto:\n' + text, '\n');
   console.log(text.match(justNumbersRegex));
-  
 
   /*
 - Crie uma regex que case com números no final de uma string. Atribua a
@@ -51,7 +50,6 @@ Mostre a regex no console:
   console.log('\nRegex para números somente no final das linhas:');
   var numbersAtTheEnd = /\d+$/gm;
   console.log(numbersAtTheEnd);
-  
 
   /*
 Verifique se a regex acima casa com o texto na variável `otherText`,
@@ -94,5 +92,13 @@ para exemplificar.
     markup,
     '\n'
   );
-  // ?
+  function hasClass(markup, cssClass) {
+    var regex = new RegExp('class=["\'].*' + cssClass + '.*["\']');
+    return regex.test(markup);
+  }
+
+  var classes = ['container', 'text', 'date', 'excerpt', 'main'];
+  classes.forEach(function(cssClass) {
+    console.log(hasClass(markup, cssClass) + ' para a classe' + cssClass);
+  });
 })();
