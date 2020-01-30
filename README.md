@@ -22,4 +22,5 @@
     <li>Challenge 19 :heavy_check_mark:</li>
     <li>Challenge 20 :heavy_check_mark:</li>
     <li>Challenge 21 :heavy_check_mark:</li>
+    <li>Challenge 22 :heavy_check_mark:</li>
 </ul>
